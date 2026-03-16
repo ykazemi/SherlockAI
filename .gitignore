@@ -1,0 +1,41 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# --- Virtual env ---
+.venv/
+venv/
+
+# --- OS / Editor ---
+.DS_Store
+.vscode/
+.idea/
+
+# --- Secrets / env ---
+.env
+.env.*   # ignores .env.local, .env.prod, etc.
+!.env.example   # BUT keep the template file tracked
+
+# --- Streamlit / cache ---
+.streamlit/
+.cache/
+
+# --- Logs / outputs ---
+audit_log.jsonl
+*.log
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Optional: local data dumps ---
+*.csv
+*.parquet
+*.sqlite
+triage_engine_v1.py
+audit_log.jsonl
