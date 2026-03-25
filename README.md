@@ -1,6 +1,6 @@
-# SherlockAI — AI Compliance Triage Operator (Demo)
+# SherlockAI: AI Compliance Triage Operator
 
-SherlockAI is an AI-native compliance triage operator. It turns inbound tickets (chat/email/support cases) into **structured, evidence-grounded triage outputs**, drafts the **next best questions** and a **concise internal memo**, and then routes everything through a **human-only decision gate** with audit logging.
+This prototype is an AI compliance triage operator called SherlockAI, that turns inbound tickets (chat/email/support cases) into **structured, evidence-grounded triage outputs**, drafts the **next best questions** and a **concise internal memo**, and then routes everything through a **human-only decision gate** with audit logging.
 
 This repo is built to be **demo**:
 - **Deterministic** routing + fact extraction for predictability
